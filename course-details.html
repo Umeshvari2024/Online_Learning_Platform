@@ -84,11 +84,9 @@
 
                 </div>
 
-               <a href="login.html" class="enroll-btn">
-
+             <button class="enroll-btn" id="openFormBtn">
     Enroll Now
-
-</a>
+</button>
             </div>
 
         </div>
@@ -206,6 +204,37 @@
 
 
     <script src="js/script.js"></script>
+
+<!-- ENROLL POPUP FORM -->
+
+<div class="popup-form" id="popupForm">
+
+    <div class="form-box">
+
+        <span class="close-btn" id="closeFormBtn">&times;</span>
+
+        <h2>Course Enrollment</h2>
+
+        <form id="enrollForm">
+
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="tel" placeholder="Enter Mobile Number" required>
+
+            <button type="submit" class="submit-btn">
+
+                Submit Enrollment
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
 
 </body>
 </html>
